@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Journey to Harmony Therapy Center – Licensed Psychotherapy, Supervision for RCSWI, and Immigration Evaluations in Florida. Book a session with Keanne Owens, LCSW-QS.">
+<meta name="keywords" content="therapy Florida, mental health counseling, LCSW, psychotherapy, immigration evaluation, RCSWI supervision, Keanne Owens">
+<meta property="og:title" content="Journey to Harmony Therapy Center">
+<meta property="og:description" content="Professional mental health therapy with Keanne Owens, LCSW-QS. Serving Florida with compassion and expertise.">
+<title>Journey to Harmony Therapy Center | Keanne Owens, LCSW-QS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --blue: #5B8DB8;
+  --blue-light: #C8DDEF;
+  --blue-pale: #EBF3FA;
+  --lavender: #9B89B6;
+  --lavender-light: #DDD6EC;
+  --lavender-pale: #F3F0F9;
+  --green: #7BAE8A;
+  --green-light: #C5DEC9;
+  --green-pale: #EBF5EE;
+  --white: #FAFBFF;
+  --cream: #F7F4EE;
+  --text: #2A3549;
+  --text-muted: #6B7A92;
+  --text-light: #9BA8BB;
+  --border: #E4ECF3;
+  --shadow: rgba(91,141,184,0.10);
+  --shadow-md: rgba(91,141,184,0.18);
+  --nav-h: 72px;
+}
+[data-theme="dark"] {
+  --blue: #7AAFD4;
+  --blue-light: #1E3A52;
+  --blue-pale: #152535;
+  --lavender: #B8A8D4;
+  --lavender-light: #2A2245;
+  --lavender-pale: #1C1730;
+  --green: #8ECBA0;
+  --green-light: #1A3525;
+  --green-pale: #10231A;
+  --white: #0F1318;
+  --cream: #131820;
+  --text: #DDE5F0;
+  --text-muted: #8DA0B8;
+  --text-light: #5A7090;
+  --border: #1E2D40;
+  --shadow: rgba(0,0,0,0.30);
+  --shadow-md: rgba(0,0,0,0.45);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--text);font-size:16px;line-height:1.7;transition:background .3s,color .3s;}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);background:rgba(250,251,255,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:0 5%;transition:background .3s,border .3s;}
+[data-theme="dark"] nav{background:rgba(15,19,24,0.92);}
+.nav-logo{display:flex;align-items:center;gap:10px;cursor:pointer;text-decoration:none;}
+.nav-logo-mark{width:36px;height:36px;background:linear-gradient(135deg,var(--blue),var(--lavender));border-radius:50% 30% 50% 30%;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.nav-logo-mark svg{width:18px;height:18px;fill:white;}
+.nav-logo-text{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:500;color:var(--text);line-height:1.2;}
+.nav-logo-text span{display:block;font-size:.7rem;font-family:'DM Sans',sans-serif;font-weight:400;color:var(--text-muted);letter-spacing:.08em;text-transform:uppercase;}
+.nav-links{display:flex;align-items:center;gap:.25rem;}
+.nav-links a{font-size:.88rem;font-weight:500;padding:.45rem .85rem;border-radius:20px;color:var(--text-muted);text-decoration:none;transition:all .2s;cursor:pointer;}
+.nav-links a:hover,.nav-links a.active{color:var(--blue);background:var(--blue-pale);}
+.nav-cta{background:var(--blue);color:white!important;padding:.45rem 1.1rem!important;border-radius:20px!important;}
+.nav-cta:hover{background:#4a7aa5!important;color:white!important;}
+.nav-actions{display:flex;align-items:center;gap:.5rem;}
+.theme-btn{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:all .2s;color:var(--text-muted);}
+.theme-btn:hover{background:var(--blue-pale);}
+.menu-btn{display:none;width:36px;height:36px;border-radius:8px;border:1px solid var(--border);background:transparent;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;}
+.menu-btn span{width:18px;height:1.5px;background:var(--text-muted);display:block;transition:all .3s;}
+.mobile-nav{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:var(--white);border-bottom:1px solid var(--border);padding:1rem 5%;z-index:999;flex-direction:column;gap:.25rem;}
+.mobile-nav.open{display:flex;}
+.mobile-nav a{padding:.75rem 1rem;border-radius:8px;color:var(--text);text-decoration:none;font-weight:500;transition:background .2s;cursor:pointer;}
+.mobile-nav a:hover{background:var(--blue-pale);color:var(--blue);}
+
+/* ── PAGES ── */
+.page{display:none;padding-top:var(--nav-h);}
+.page.active{display:block;}
+
+/* ── HERO ── */
+.hero{position:relative;min-height:calc(100vh - var(--nav-h));display:flex;align-items:center;overflow:hidden;background:var(--cream);}
+.hero-bg{position:absolute;inset:0;z-index:0;}
+.hero-blob-1{position:absolute;top:-10%;right:-5%;width:55%;aspect-ratio:1;background:radial-gradient(ellipse at center,var(--blue-light) 0%,transparent 70%);opacity:.55;border-radius:60% 40% 50% 55%;}
+.hero-blob-2{position:absolute;bottom:0;left:-5%;width:45%;aspect-ratio:1;background:radial-gradient(ellipse at center,var(--lavender-light) 0%,transparent 70%);opacity:.5;border-radius:45% 55% 40% 60%;}
+.hero-blob-3{position:absolute;top:30%;left:30%;width:35%;aspect-ratio:1;background:radial-gradient(ellipse at center,var(--green-light) 0%,transparent 70%);opacity:.3;border-radius:55% 45% 55% 45%;}
+.hero-content{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:5% 5%;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:var(--green-pale);color:var(--green);border:1px solid var(--green-light);border-radius:20px;padding:.35rem .9rem;font-size:.8rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:1.5rem;}
+.hero-badge::before{content:'';width:8px;height:8px;background:var(--green);border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(.8);}}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,4.5vw,3.8rem);font-weight:300;line-height:1.15;color:var(--text);margin-bottom:1.25rem;}
+.hero h1 em{font-style:italic;color:var(--blue);}
+.hero-sub{font-size:1.05rem;color:var(--text-muted);margin-bottom:2rem;max-width:480px;}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;}
+.btn-primary{background:var(--blue);color:white;padding:.8rem 1.8rem;border-radius:30px;font-weight:600;font-size:.9rem;border:none;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:all .25s;}
+.btn-primary:hover{background:#4a7aa5;transform:translateY(-1px);}
+.btn-outline{background:transparent;color:var(--blue);padding:.75rem 1.7rem;border-radius:30px;font-weight:600;font-size:.9rem;border:2px solid var(--blue);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:all .25s;}
+.btn-outline:hover{background:var(--blue-pale);}
+.hero-card{background:var(--white);border-radius:24px;padding:2rem;box-shadow:0 8px 32px var(--shadow-md);border:1px solid var(--border);position:relative;overflow:hidden;}
+.hero-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue),var(--lavender),var(--green));}
+.hero-photo{width:100%;aspect-ratio:4/5;background:linear-gradient(145deg,var(--blue-light),var(--lavender-light));border-radius:16px;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.hero-photo-inner{font-family:'Cormorant Garamond',serif;font-size:5rem;color:white;opacity:.4;}
+.hero-name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:500;color:var(--text);}
+.hero-title{font-size:.82rem;color:var(--text-muted);margin-bottom:.75rem;}
+.hero-tags{display:flex;flex-wrap:wrap;gap:.4rem;}
+.tag{background:var(--blue-pale);color:var(--blue);border-radius:20px;padding:.25rem .75rem;font-size:.75rem;font-weight:500;}
+.tag.green{background:var(--green-pale);color:var(--green);}
+.tag.lavender{background:var(--lavender-pale);color:var(--lavender);}
+.hero-wave{position:absolute;bottom:0;left:0;right:0;}
+
+/* ── SECTION COMMONS ── */
+section{padding:5rem 5%;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.section-label{font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:.75rem;}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:400;color:var(--text);margin-bottom:1rem;line-height:1.2;}
+.section-title em{font-style:italic;color:var(--lavender);}
+.section-sub{font-size:1rem;color:var(--text-muted);max-width:580px;margin-bottom:3rem;}
+
+/* ── SERVICES ── */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;}
+.service-card{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:2rem;transition:all .3s;cursor:pointer;position:relative;overflow:hidden;}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px var(--shadow-md);border-color:var(--blue-light);}
+.service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--card-accent,var(--blue));transform:scaleX(0);transform-origin:left;transition:transform .3s;}
+.service-card:hover::after{transform:scaleX(1);}
+.service-icon{width:52px;height:52px;border-radius:14px;background:var(--icon-bg,var(--blue-pale));display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;font-size:1.5rem;}
+.service-card h3{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--text);margin-bottom:.6rem;}
+.service-card p{font-size:.88rem;color:var(--text-muted);margin-bottom:1rem;}
+.service-meta{display:flex;gap:.5rem;flex-wrap:wrap;}
+.meta-chip{background:var(--cream);color:var(--text-muted);border-radius:12px;padding:.2rem .6rem;font-size:.75rem;}
+
+/* ── TRUST / CREDENTIALS ── */
+.trust-bar{background:var(--blue);border-radius:20px;padding:2.5rem 3rem;display:flex;justify-content:space-around;flex-wrap:wrap;gap:1.5rem;}
+.trust-item{text-align:center;color:white;}
+.trust-num{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;}
+.trust-label{font-size:.8rem;opacity:.85;margin-top:.2rem;}
+
+/* ── TESTIMONIALS ── */
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;}
+.testimonial-card{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:2rem;position:relative;}
+.testimonial-card::before{content:'\201C';font-family:'Cormorant Garamond',serif;font-size:5rem;color:var(--blue-light);line-height:0;position:absolute;top:2rem;right:1.5rem;opacity:.6;}
+.testimonial-stars{color:#F5C842;font-size:1rem;margin-bottom:1rem;letter-spacing:.1em;}
+.testimonial-text{font-size:.92rem;color:var(--text-muted);margin-bottom:1.25rem;font-style:italic;line-height:1.8;}
+.testimonial-author{display:flex;align-items:center;gap:.75rem;}
+.author-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--blue-light),var(--lavender-light));display:flex;align-items:center;justify-content:center;font-weight:600;color:var(--blue);font-size:.85rem;}
+.author-name{font-weight:600;font-size:.88rem;color:var(--text);}
+.author-role{font-size:.78rem;color:var(--text-muted);}
+
+/* ── WELLNESS TIPS ── */
+.tips-section{background:var(--cream);}
+.tips-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;}
+.tip-card{background:var(--white);border-radius:16px;padding:1.5rem;border:1px solid var(--border);}
+.tip-emoji{font-size:1.75rem;margin-bottom:.75rem;}
+.tip-card h4{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:.5rem;}
+.tip-card p{font-size:.83rem;color:var(--text-muted);}
+
+/* ── BOOKING ── */
+.booking-section{background:var(--lavender-pale);}
+.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;}
+.calendar-wrapper{background:var(--white);border-radius:20px;padding:1.75rem;border:1px solid var(--border);}
+.cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;}
+.cal-month{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--text);}
+.cal-nav{width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:all .2s;}
+.cal-nav:hover{background:var(--blue-pale);border-color:var(--blue);color:var(--blue);}
+.cal-days-header{display:grid;grid-template-columns:repeat(7,1fr);text-align:center;font-size:.73rem;font-weight:600;color:var(--text-light);letter-spacing:.05em;margin-bottom:.5rem;}
+.cal-days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;}
+.cal-day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:.85rem;cursor:pointer;transition:all .2s;color:var(--text);}
+.cal-day:hover:not(.empty):not(.past){background:var(--blue-pale);color:var(--blue);}
+.cal-day.today{background:var(--blue);color:white;font-weight:600;}
+.cal-day.selected{background:var(--lavender);color:white;}
+.cal-day.available{color:var(--green);font-weight:500;}
+.cal-day.empty,.cal-day.past{color:var(--text-light);cursor:default;}
+.time-slots{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:1rem;}
+.time-slot{padding:.5rem;border-radius:8px;border:1px solid var(--border);text-align:center;font-size:.8rem;cursor:pointer;transition:all .2s;color:var(--text-muted);}
+.time-slot:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-pale);}
+.time-slot.selected{background:var(--blue);color:white;border-color:var(--blue);}
+.time-slot.unavail{opacity:.4;cursor:not-allowed;}
+.booking-form-side{display:flex;flex-direction:column;gap:1.25rem;}
+.booking-form-side h3{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;color:var(--text);}
+.form-group{display:flex;flex-direction:column;gap:.4rem;}
+.form-group label{font-size:.82rem;font-weight:600;color:var(--text);letter-spacing:.02em;}
+.form-group input,.form-group select,.form-group textarea{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:.7rem 1rem;font-size:.9rem;color:var(--text);font-family:'DM Sans',sans-serif;outline:none;transition:border .2s;}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(91,141,184,.12);}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.booking-summary{background:var(--blue-pale);border-radius:12px;padding:1.25rem;border:1px solid var(--blue-light);font-size:.88rem;color:var(--blue);}
+.booking-summary strong{display:block;font-size:1rem;margin-bottom:.25rem;color:var(--text);}
+
+/* ── ABOUT ── */
+.about-hero{background:var(--cream);padding:5rem 5% 4rem;}
+.about-grid{display:grid;grid-template-columns:400px 1fr;gap:4rem;align-items:start;max-width:1200px;margin:0 auto;}
+.about-photo-card{background:var(--white);border-radius:24px;padding:2rem;box-shadow:0 8px 32px var(--shadow);border:1px solid var(--border);text-align:center;position:sticky;top:calc(var(--nav-h) + 1.5rem);}
+.about-photo-img{width:100%;aspect-ratio:3/4;background:linear-gradient(145deg,var(--blue-light),var(--lavender-light));border-radius:16px;margin-bottom:1.5rem;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:6rem;color:white;opacity:.35;}
+.about-photo-card h2{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:500;}
+.about-photo-card .title{color:var(--blue);font-size:.88rem;font-weight:600;margin-bottom:.5rem;}
+.about-photo-card .location{color:var(--text-muted);font-size:.82rem;margin-bottom:1.25rem;}
+.credential-badges{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.5rem;}
+.credential-badge{background:var(--blue-pale);border:1px solid var(--blue-light);border-radius:10px;padding:.6rem .9rem;font-size:.8rem;color:var(--blue);font-weight:500;display:flex;align-items:center;gap:.5rem;}
+.about-content p{font-size:.95rem;color:var(--text-muted);margin-bottom:1.25rem;line-height:1.85;}
+.philosophy-cards{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0;}
+.philosophy-card{background:var(--white);border:1px solid var(--border);border-radius:14px;padding:1.25rem;}
+.philosophy-card h4{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--text);margin-bottom:.4rem;}
+.philosophy-card p{font-size:.83rem;color:var(--text-muted);}
+
+/* ── SERVICES PAGE ── */
+.services-hero{background:var(--blue-pale);padding:5rem 5% 3rem;}
+.service-full-card{background:var(--white);border:1px solid var(--border);border-radius:24px;padding:2.5rem;margin-bottom:1.5rem;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:start;}
+.service-full-card:hover{box-shadow:0 8px 32px var(--shadow);}
+.sfcard-content h3{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;color:var(--text);margin-bottom:.75rem;}
+.sfcard-content p{font-size:.92rem;color:var(--text-muted);margin-bottom:1.25rem;}
+.sfcard-details{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-bottom:1.5rem;}
+.sfcard-detail{background:var(--cream);border-radius:10px;padding:.75rem;text-align:center;}
+.sfcard-detail-label{font-size:.72rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.2rem;}
+.sfcard-detail-val{font-size:.88rem;font-weight:600;color:var(--text);}
+.sfcard-who{background:var(--green-pale);border-radius:12px;padding:1rem;border:1px solid var(--green-light);}
+.sfcard-who strong{font-size:.8rem;color:var(--green);text-transform:uppercase;letter-spacing:.05em;}
+.sfcard-who p{font-size:.85rem;color:var(--text-muted);margin-top:.35rem;}
+.sfcard-price{text-align:center;}
+.price-label{font-size:.78rem;color:var(--text-muted);margin-bottom:.3rem;}
+.price-amount{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--text);}
+.price-per{font-size:.78rem;color:var(--text-muted);}
+
+/* ── SUPERVISION APP ── */
+.supv-hero{background:var(--lavender-pale);padding:5rem 5% 3rem;}
+.supv-form-wrapper{max-width:760px;margin:0 auto;}
+.form-section-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:500;color:var(--text);margin:1.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);}
+.file-upload-area{border:2px dashed var(--border);border-radius:14px;padding:2.5rem;text-align:center;cursor:pointer;transition:all .2s;background:var(--cream);}
+.file-upload-area:hover{border-color:var(--blue);background:var(--blue-pale);}
+.file-upload-area p{color:var(--text-muted);font-size:.88rem;}
+.file-upload-area strong{color:var(--blue);}
+.checkbox-group{display:flex;flex-direction:column;gap:.6rem;}
+.checkbox-item{display:flex;align-items:center;gap:.75rem;font-size:.88rem;color:var(--text-muted);cursor:pointer;}
+.checkbox-item input{width:16px;height:16px;accent-color:var(--lavender);}
+
+/* ── BLOG ── */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.75rem;}
+.blog-card{background:var(--white);border:1px solid var(--border);border-radius:20px;overflow:hidden;transition:all .3s;cursor:pointer;}
+.blog-card:hover{transform:translateY(-3px);box-shadow:0 10px 36px var(--shadow-md);}
+.blog-img{height:200px;background:linear-gradient(135deg,var(--blue-light),var(--lavender-light));display:flex;align-items:center;justify-content:center;font-size:3.5rem;}
+.blog-body{padding:1.5rem;}
+.blog-cat{font-size:.73rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:.5rem;}
+.blog-card h3{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--text);margin-bottom:.6rem;line-height:1.3;}
+.blog-card p{font-size:.85rem;color:var(--text-muted);margin-bottom:1rem;}
+.blog-meta{display:flex;align-items:center;justify-content:space-between;font-size:.78rem;color:var(--text-light);}
+.read-time{background:var(--cream);padding:.2rem .6rem;border-radius:10px;}
+
+/* ── CONTACT ── */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;}
+.contact-info-card{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:2rem;}
+.contact-item{display:flex;align-items:flex-start;gap:1rem;padding:1.25rem 0;border-bottom:1px solid var(--border);}
+.contact-item:last-child{border-bottom:none;}
+.contact-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.25rem;}
+.contact-item-text strong{display:block;font-weight:600;font-size:.88rem;color:var(--text);margin-bottom:.2rem;}
+.contact-item-text span{font-size:.85rem;color:var(--text-muted);}
+.contact-form{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:2rem;}
+.map-placeholder{background:linear-gradient(145deg,var(--blue-pale),var(--green-pale));border-radius:16px;height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;color:var(--text-muted);font-size:.88rem;border:1px solid var(--border);margin-top:1.5rem;}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:.35rem;margin-top:1rem;}
+.hours-row{display:contents;}
+.hours-day{font-size:.83rem;font-weight:600;color:var(--text);}
+.hours-time{font-size:.83rem;color:var(--text-muted);}
+
+/* ── EMERGENCY BANNER ── */
+.emergency-banner{background:linear-gradient(135deg,#FEF0F0,#FDF4FB);border:1px solid #F5C6C6;border-radius:16px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;}
+.emergency-icon{font-size:1.5rem;flex-shrink:0;}
+.emergency-text strong{display:block;color:#C0392B;font-size:.9rem;}
+.emergency-text span{font-size:.83rem;color:#7a3030;}
+.emergency-link{margin-left:auto;background:#C0392B;color:white;padding:.45rem 1rem;border-radius:20px;font-size:.82rem;font-weight:600;text-decoration:none;white-space:nowrap;}
+
+/* ── NEWSLETTER ── */
+.newsletter-section{background:linear-gradient(135deg,var(--blue),var(--lavender));padding:4rem 5%;text-align:center;}
+.newsletter-section h2{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:white;margin-bottom:.75rem;}
+.newsletter-section p{color:rgba(255,255,255,.8);margin-bottom:2rem;}
+.newsletter-form{display:flex;max-width:480px;margin:0 auto;gap:.5rem;}
+.newsletter-form input{flex:1;padding:.8rem 1.2rem;border-radius:30px;border:none;font-size:.9rem;background:rgba(255,255,255,.2);color:white;outline:none;}
+.newsletter-form input::placeholder{color:rgba(255,255,255,.6);}
+.newsletter-form button{background:white;color:var(--blue);padding:.8rem 1.5rem;border-radius:30px;border:none;font-weight:700;font-size:.88rem;cursor:pointer;transition:all .2s;white-space:nowrap;}
+.newsletter-form button:hover{transform:translateY(-1px);}
+
+/* ── FOOTER ── */
+footer{background:var(--text);color:rgba(255,255,255,.7);padding:3.5rem 5% 2rem;}
+.footer-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:2.5rem;}
+.footer-brand p{font-size:.84rem;margin:.75rem 0 1.25rem;max-width:280px;line-height:1.7;}
+.footer-social{display:flex;gap:.5rem;}
+.social-btn{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:.9rem;cursor:pointer;transition:background .2s;text-decoration:none;color:white;}
+.social-btn:hover{background:var(--blue);}
+.footer-col h4{font-family:'DM Sans',sans-serif;font-weight:600;color:white;font-size:.88rem;margin-bottom:1rem;}
+.footer-col a{display:block;font-size:.84rem;color:rgba(255,255,255,.6);text-decoration:none;margin-bottom:.5rem;cursor:pointer;transition:color .2s;}
+.footer-col a:hover{color:var(--blue-light);}
+.footer-bottom{max-width:1200px;margin:0 auto;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:center;font-size:.8rem;flex-wrap:wrap;gap:.5rem;}
+.footer-logo-text{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:white;font-weight:400;}
+
+/* ── WHATSAPP BTN ── */
+.whatsapp-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:900;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,.4);cursor:pointer;transition:all .25s;}
+.whatsapp-fab:hover{transform:scale(1.1);background:#1da851;}
+.whatsapp-fab svg{width:28px;height:28px;fill:white;}
+
+/* ── SUCCESS MSG ── */
+.success-msg{display:none;background:var(--green-pale);border:1px solid var(--green-light);border-radius:12px;padding:1.25rem;color:var(--green);font-size:.9rem;text-align:center;margin-top:1rem;}
+.success-msg.show{display:block;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .hero-content{grid-template-columns:1fr;gap:2.5rem;}
+  .hero-card{max-width:400px;}
+  .about-grid{grid-template-columns:1fr;}
+  .about-photo-card{position:static;}
+  .booking-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  .service-full-card{grid-template-columns:1fr;}
+  .philosophy-cards{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  .nav-links{display:none;}
+  .menu-btn{display:flex;}
+  .trust-bar{padding:2rem 1.5rem;}
+  .sfcard-details{grid-template-columns:1fr 1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .form-grid{grid-template-columns:1fr;}
+  .newsletter-form{flex-direction:column;}
+  .hero-actions{flex-direction:column;}
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.fade-up{animation:fadeUp .6s ease forwards;}
+.fade-up-d1{animation-delay:.1s;opacity:0;}
+.fade-up-d2{animation-delay:.2s;opacity:0;}
+.fade-up-d3{animation-delay:.3s;opacity:0;}
+.page.active .hero-badge,.page.active .hero h1,.page.active .hero-sub,.page.active .hero-actions,.page.active .hero-card{opacity:0;animation:fadeUp .7s ease forwards;}
+.page.active .hero h1{animation-delay:.1s;}
+.page.active .hero-sub{animation-delay:.2s;}
+.page.active .hero-actions{animation-delay:.3s;}
+.page.active .hero-card{animation-delay:.15s;}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:6px;} 
+::-webkit-scrollbar-track{background:var(--cream);}
+::-webkit-scrollbar-thumb{background:var(--blue-light);border-radius:3px;}
+
+/* Admin modal */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:2000;align-items:center;justify-content:center;padding:1rem;}
+.modal-overlay.open{display:flex;}
+.modal{background:var(--white);border-radius:20px;padding:2rem;max-width:600px;width:100%;max-height:90vh;overflow-y:auto;}
+.modal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;}
+.modal-close{width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:transparent;cursor:pointer;font-size:1.2rem;color:var(--text-muted);}
+.admin-tabs{display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap;}
+.admin-tab{padding:.45rem 1rem;border-radius:20px;border:1px solid var(--border);background:transparent;cursor:pointer;font-size:.82rem;font-weight:500;color:var(--text-muted);transition:all .2s;}
+.admin-tab.active{background:var(--blue);color:white;border-color:var(--blue);}
+.admin-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0;border-bottom:1px solid var(--border);font-size:.88rem;}
+.admin-row:last-child{border-bottom:none;}
+.admin-status{padding:.2rem .65rem;border-radius:10px;font-size:.73rem;font-weight:600;}
+.admin-status.pending{background:#FEF3C7;color:#92400E;}
+.admin-status.confirmed{background:var(--green-pale);color:var(--green);}
+.status-dot{width:8px;height:8px;border-radius:50%;margin-right:.4rem;display:inline-block;}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="mainNav">
+  <a class="nav-logo" onclick="showPage('home')">
+    <div class="nav-logo-mark">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/><path d="M12 2C8 2 5 5.5 5 10c0 3 1.5 5.5 4 7l3 2 3-2c2.5-1.5 4-4 4-7 0-4.5-3-8-7-8z" fill="white" opacity=".9"/></svg>
+    </div>
+    <div class="nav-logo-text">Journey to Harmony<span>Therapy Center</span></div>
+  </a>
+  <div class="nav-links">
+    <a onclick="showPage('home')" id="nav-home" class="active">Home</a>
+    <a onclick="showPage('about')" id="nav-about">About</a>
+    <a onclick="showPage('services')" id="nav-services">Services</a>
+    <a onclick="showPage('blog')" id="nav-blog">Resources</a>
+    <a onclick="showPage('supervision')" id="nav-supervision">Supervision</a>
+    <a onclick="showPage('contact')" id="nav-contact">Contact</a>
+    <a onclick="showPage('booking')" class="nav-cta" id="nav-booking">Book Session</a>
+  </div>
+  <div class="nav-actions">
+    <button class="theme-btn" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+    <button class="menu-btn" onclick="toggleMenu()" id="menuBtn">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a onclick="showPage('home');toggleMenu()">Home</a>
+  <a onclick="showPage('about');toggleMenu()">About</a>
+  <a onclick="showPage('services');toggleMenu()">Services</a>
+  <a onclick="showPage('blog');toggleMenu()">Resources</a>
+  <a onclick="showPage('supervision');toggleMenu()">Supervision</a>
+  <a onclick="showPage('contact');toggleMenu()">Contact</a>
+  <a onclick="showPage('booking');toggleMenu()" style="background:var(--blue);color:white;">📅 Book Session</a>
+</div>
+
+<!-- WhatsApp FAB -->
+<div class="whatsapp-fab" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</div>
+
+<!-- ═══════════════════ HOME PAGE ═══════════════════ -->
+<div class="page active" id="page-home">
+
+  <!-- EMERGENCY BANNER -->
+  <div style="padding:1.5rem 5% 0;max-width:1200px;margin:0 auto;padding-top:calc(var(--nav-h) + 1.5rem);">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="emergency-banner">
+        <div class="emergency-icon">🆘</div>
+        <div class="emergency-text">
+          <strong>Mental Health Emergency? Get help now.</strong>
+          <span>If you are in crisis, please reach out immediately — help is available 24/7.</span>
+        </div>
+        <a href="tel:988" class="emergency-link">Call 988</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" style="padding-top:0;min-height:90vh;">
+    <div class="hero-bg">
+      <div class="hero-blob-1"></div>
+      <div class="hero-blob-2"></div>
+      <div class="hero-blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div>
+        <div class="hero-badge">Now Accepting New Clients</div>
+        <h1>Your Journey to <em>Healing</em> Begins Here</h1>
+        <p class="hero-sub">Compassionate, evidence-based psychotherapy to help you rediscover balance, resilience, and authentic wellbeing — in a safe, judgment-free space.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="showPage('booking')">📅 Book a Session</button>
+          <button class="btn-outline" onclick="showPage('about')">Meet Keanne →</button>
+        </div>
+      </div>
+      <div>
+        <div class="hero-card">
+          <div class="hero-photo"><div class="hero-photo-inner">KO</div></div>
+          <div class="hero-name">Keanne Owens, LCSW-QS</div>
+          <div class="hero-title">Licensed Clinical Social Worker | Florida</div>
+          <div class="hero-tags">
+            <span class="tag">Individual Therapy</span>
+            <span class="tag green">Supervision</span>
+            <span class="tag lavender">Immigration Evaluations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1350,50 1440,40 L1440,60 L0,60 Z" fill="var(--white)"/></svg>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section style="padding:2rem 5%;">
+    <div class="section-inner">
+      <div class="trust-bar">
+        <div class="trust-item"><div class="trust-num">10+</div><div class="trust-label">Years Experience</div></div>
+        <div class="trust-item"><div class="trust-num">500+</div><div class="trust-label">Clients Supported</div></div>
+        <div class="trust-item"><div class="trust-num">LCSW-QS</div><div class="trust-label">Florida Licensed</div></div>
+        <div class="trust-item"><div class="trust-num">3</div><div class="trust-label">Core Services</div></div>
+        <div class="trust-item"><div class="trust-num">100%</div><div class="trust-label">Confidential</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section>
+    <div class="section-inner" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
+      <div>
+        <div class="section-label">About Your Therapist</div>
+        <h2 class="section-title">A Compassionate Guide on Your <em>Healing Journey</em></h2>
+        <p style="font-size:.95rem;color:var(--text-muted);margin-bottom:1.5rem;">Keanne Owens is a Florida-licensed psychotherapist and qualified supervisor with over a decade of experience supporting individuals through life's most challenging transitions. Her approach blends evidence-based modalities with cultural sensitivity and genuine human connection.</p>
+        <p style="font-size:.95rem;color:var(--text-muted);margin-bottom:2rem;">Whether you're navigating anxiety, trauma, relationship challenges, or life transitions, Keanne provides a warm, non-judgmental space where growth becomes possible.</p>
+        <button class="btn-outline" onclick="showPage('about')">Read Full Bio →</button>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="background:var(--blue-pale);border-radius:20px;padding:1.75rem;border:1px solid var(--blue-light);">
+          <div style="font-size:2rem;margin-bottom:.75rem;">🎓</div>
+          <h4 style="font-size:1rem;font-weight:600;color:var(--text);margin-bottom:.4rem;">LCSW-QS</h4>
+          <p style="font-size:.82rem;color:var(--text-muted);">Licensed Clinical Social Worker – Qualified Supervisor in Florida</p>
+        </div>
+        <div style="background:var(--green-pale);border-radius:20px;padding:1.75rem;border:1px solid var(--green-light);margin-top:1.5rem;">
+          <div style="font-size:2rem;margin-bottom:.75rem;">💚</div>
+          <h4 style="font-size:1rem;font-weight:600;color:var(--text);margin-bottom:.4rem;">Trauma-Informed</h4>
+          <p style="font-size:.82rem;color:var(--text-muted);">Specialized training in trauma, grief, and cross-cultural therapy</p>
+        </div>
+        <div style="background:var(--lavender-pale);border-radius:20px;padding:1.75rem;border:1px solid var(--lavender-light);margin-top:-1rem;">
+          <div style="font-size:2rem;margin-bottom:.75rem;">🌍</div>
+          <h4 style="font-size:1rem;font-weight:600;color:var(--text);margin-bottom:.4rem;">Immigration Specialist</h4>
+          <p style="font-size:.82rem;color:var(--text-muted);">Psychological evaluations for immigration & USCIS cases</p>
+        </div>
+        <div style="background:var(--cream);border-radius:20px;padding:1.75rem;border:1px solid var(--border);">
+          <div style="font-size:2rem;margin-bottom:.75rem;">📋</div>
+          <h4 style="font-size:1rem;font-weight:600;color:var(--text);margin-bottom:.4rem;">RCSWI Supervision</h4>
+          <p style="font-size:.82rem;color:var(--text-muted);">Qualified supervisor accepting supervised hours applicants</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES OVERVIEW -->
+  <section style="background:var(--cream);">
+    <div class="section-inner">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Services Tailored to <em>Your Needs</em></h2>
+      <p class="section-sub">Every person's journey is unique. Our services are designed to meet you where you are and support you toward where you want to be.</p>
+      <div class="services-grid">
+        <div class="service-card" style="--card-accent:var(--blue);--icon-bg:var(--blue-pale);" onclick="showPage('services')">
+          <div class="service-icon">🧠</div>
+          <h3>Individual Therapy</h3>
+          <p>One-on-one sessions tailored to your unique goals, challenges, and strengths — at a pace that feels right for you.</p>
+          <div class="service-meta">
+            <span class="meta-chip">50 min sessions</span>
+            <span class="meta-chip">Telehealth & In-Person</span>
+          </div>
+        </div>
+        <div class="service-card" style="--card-accent:var(--lavender);--icon-bg:var(--lavender-pale);" onclick="showPage('services')">
+          <div class="service-icon">🌱</div>
+          <h3>Mental Health Counseling</h3>
+          <p>Compassionate support for anxiety, depression, trauma, grief, life transitions, and relationship challenges.</p>
+          <div class="service-meta">
+            <span class="meta-chip">Ongoing support</span>
+            <span class="meta-chip">Evidence-based</span>
+          </div>
+        </div>
+        <div class="service-card" style="--card-accent:var(--green);--icon-bg:var(--green-pale);" onclick="showPage('supervision')">
+          <div class="service-icon">📚</div>
+          <h3>Supervision for RCSWI</h3>
+          <p>Structured clinical supervision for Registered Clinical Social Work Interns working toward Florida licensure.</p>
+          <div class="service-meta">
+            <span class="meta-chip">Qualified Supervisor</span>
+            <span class="meta-chip">Florida licensed</span>
+          </div>
+        </div>
+        <div class="service-card" style="--card-accent:#E8A44A;--icon-bg:#FEF7ED;" onclick="showPage('services')">
+          <div class="service-icon">📄</div>
+          <h3>Immigration Evaluations</h3>
+          <p>Professional psychological evaluations for hardship, VAWA, U-Visa, asylum, and other immigration cases.</p>
+          <div class="service-meta">
+            <span class="meta-chip">USCIS accepted</span>
+            <span class="meta-chip">Bilingual available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section>
+    <div class="section-inner">
+      <div class="section-label">Client Experiences</div>
+      <h2 class="section-title">Words from Those We've <em>Supported</em></h2>
+      <p class="section-sub">Our clients' wellbeing is our greatest measure of success.</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Working with Keanne has been life-changing. She helped me navigate anxiety I'd carried for years, and for the first time I feel truly equipped to handle life's challenges."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div><div class="author-name">Sarah M.</div><div class="author-role">Individual Therapy Client</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The immigration evaluation process felt daunting, but Keanne made it professional, compassionate, and thorough. I felt heard and understood throughout every step."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JR</div>
+            <div><div class="author-name">Jorge R.</div><div class="author-role">Immigration Evaluation Client</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"As an RCSWI seeking supervision, I couldn't have asked for a better mentor. Keanne's guidance has shaped me into a more confident, ethical, and effective clinician."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">TN</div>
+            <div><div class="author-name">Tanya N., RCSWI</div><div class="author-role">Supervision Supervisee</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WELLNESS TIPS -->
+  <section class="tips-section">
+    <div class="section-inner">
+      <div class="section-label">Daily Wellness</div>
+      <h2 class="section-title">Small Steps Toward <em>Big Change</em></h2>
+      <p class="section-sub">Evidence-based practices you can start using today to support your mental wellbeing.</p>
+      <div class="tips-grid">
+        <div class="tip-card"><div class="tip-emoji">🌬️</div><h4>Box Breathing</h4><p>Inhale 4 sec, hold 4, exhale 4, hold 4. Activates your calm response.</p></div>
+        <div class="tip-card"><div class="tip-emoji">📓</div><h4>Gratitude Journaling</h4><p>Note 3 things you're grateful for each morning to shift your perspective.</p></div>
+        <div class="tip-card"><div class="tip-emoji">🚶</div><h4>Mindful Movement</h4><p>Even a 10-minute walk can significantly reduce anxiety and boost mood.</p></div>
+        <div class="tip-card"><div class="tip-emoji">🌿</div><h4>Nature Time</h4><p>Spending 20 minutes outdoors lowers cortisol and restores mental energy.</p></div>
+        <div class="tip-card"><div class="tip-emoji">💤</div><h4>Sleep Hygiene</h4><p>Consistent sleep and wake times are the foundation of emotional regulation.</p></div>
+        <div class="tip-card"><div class="tip-emoji">🤝</div><h4>Social Connection</h4><p>Meaningful human connection is one of the strongest predictors of wellbeing.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section style="background:var(--green-pale);padding:4rem 5%;">
+    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center;">
+      <div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:400;color:var(--text);margin-bottom:.6rem;">Ready to Take the First Step?</h2>
+        <p style="color:var(--text-muted);max-width:520px;">Booking a session is simple and confidential. Take that first step toward the life you deserve — schedule your initial consultation today.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:.75rem;flex-shrink:0;">
+        <button class="btn-primary" onclick="showPage('booking')">📅 Book a Session</button>
+        <button class="btn-outline" onclick="showPage('contact')">✉️ Send a Message</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-section">
+    <div style="max-width:1200px;margin:0 auto;">
+      <h2>Stay Connected to Your Wellness Journey</h2>
+      <p>Monthly mental health tips, resources, and insights — delivered gently to your inbox.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Your email address" id="nlEmail">
+        <button onclick="subscribeNewsletter()">Subscribe →</button>
+      </div>
+      <div id="nlSuccess" class="success-msg" style="max-width:480px;margin:.75rem auto 0;display:none;background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.4);color:white;">✓ You're subscribed! Thank you.</div>
+    </div>
+  </div>
+
+  <!-- CONTACT PREVIEW -->
+  <section>
+    <div class="section-inner" style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;">
+      <div>
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title">We're Here When <em>You're Ready</em></h2>
+        <p style="color:var(--text-muted);margin-bottom:2rem;">Reaching out for support is an act of courage. We'll respond within 24 hours on business days and keep all communications completely confidential.</p>
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+          <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📧</span><span style="color:var(--text-muted);">contact@journeytoharmony.com</span></div>
+          <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📞</span><span style="color:var(--text-muted);">(305) 555-0174</span></div>
+          <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📍</span><span style="color:var(--text-muted);">Florida, USA</span></div>
+        </div>
+        <div style="margin-top:2rem;">
+          <button class="btn-primary" onclick="showPage('contact')">Contact Us →</button>
+        </div>
+      </div>
+      <div style="background:var(--cream);border-radius:24px;padding:2rem;border:1px solid var(--border);">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:500;color:var(--text);margin-bottom:1.25rem;">Office Hours</h3>
+        <div class="hours-grid">
+          <span class="hours-day">Monday</span><span class="hours-time">9:00 AM – 6:00 PM</span>
+          <span class="hours-day">Tuesday</span><span class="hours-time">9:00 AM – 6:00 PM</span>
+          <span class="hours-day">Wednesday</span><span class="hours-time">9:00 AM – 5:00 PM</span>
+          <span class="hours-day">Thursday</span><span class="hours-time">9:00 AM – 6:00 PM</span>
+          <span class="hours-day">Friday</span><span class="hours-time">9:00 AM – 4:00 PM</span>
+          <span class="hours-day">Saturday</span><span class="hours-time">By Appointment</span>
+          <span class="hours-day">Sunday</span><span class="hours-time">Closed</span>
+        </div>
+        <div style="margin-top:1.5rem;padding:1rem;background:var(--blue-pale);border-radius:12px;border:1px solid var(--blue-light);font-size:.83rem;color:var(--blue);">
+          🔒 All communications are confidential and HIPAA-compliant.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:white;margin-bottom:.25rem;">Journey to Harmony</div>
+        <div style="font-size:.8rem;color:rgba(255,255,255,.5);margin-bottom:.75rem;">Therapy Center</div>
+        <p>Compassionate, evidence-based psychotherapy with Keanne Owens, LCSW-QS. Serving clients throughout Florida.</p>
+        <div class="footer-social">
+          <a class="social-btn" title="Facebook">f</a>
+          <a class="social-btn" title="Instagram">in</a>
+          <a class="social-btn" title="LinkedIn">li</a>
+          <a class="social-btn" title="Twitter">tw</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a onclick="showPage('services')">Individual Therapy</a>
+        <a onclick="showPage('services')">Mental Health Counseling</a>
+        <a onclick="showPage('services')">Immigration Evaluations</a>
+        <a onclick="showPage('supervision')">RCSWI Supervision</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a onclick="showPage('blog')">Mental Health Blog</a>
+        <a onclick="showPage('blog')">Therapy Guides</a>
+        <a onclick="showPage('blog')">Stress Management</a>
+        <a href="tel:988">Crisis: Call 988</a>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a onclick="showPage('about')">About Keanne</a>
+        <a onclick="showPage('booking')">Book a Session</a>
+        <a onclick="showPage('contact')">Contact</a>
+        <a onclick="openAdmin()">Admin Login</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Journey to Harmony Therapy Center. All rights reserved.</span>
+      <span>Licensed in Florida | LCSW-QS | HIPAA Compliant</span>
+    </div>
+  </footer>
+</div><!-- /page-home -->
+
+<!-- ═══════════════════ ABOUT PAGE ═══════════════════ -->
+<div class="page" id="page-about">
+  <div class="about-hero">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-label">About Your Therapist</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Keanne Owens, <em style="font-style:italic;color:var(--blue);">LCSW-QS</em></h1>
+      <p style="color:var(--text-muted);font-size:1.05rem;max-width:600px;">Florida Licensed Clinical Social Worker & Qualified Supervisor — Dedicated to your growth, healing, and authentic wellbeing.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="about-grid">
+      <div class="about-photo-card">
+        <div class="about-photo-img">KO</div>
+        <h2 class="about-photo-card" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:500;color:var(--text);">Keanne Owens</h2>
+        <div class="title">Licensed Clinical Social Worker</div>
+        <div class="location">📍 Florida, USA</div>
+        <div class="credential-badges">
+          <div class="credential-badge">🏅 LCSW-QS – Florida</div>
+          <div class="credential-badge">📋 Qualified Supervisor</div>
+          <div class="credential-badge">🌍 Immigration Evaluation Specialist</div>
+          <div class="credential-badge">🧠 Trauma-Informed Therapist</div>
+        </div>
+        <button class="btn-primary" onclick="showPage('booking')" style="width:100%;justify-content:center;">Book a Session</button>
+      </div>
+      <div class="about-content">
+        <div class="section-label">Biography</div>
+        <h2 class="section-title" style="margin-bottom:1.25rem;">A Decade of <em>Healing Work</em></h2>
+        <p>Keanne Owens is a Licensed Clinical Social Worker with Qualified Supervisor designation (LCSW-QS) based in Florida. With over ten years of dedicated practice, she has supported hundreds of individuals through some of life's most difficult challenges — including trauma, anxiety, depression, grief, identity, immigration stress, and relationship difficulties.</p>
+        <p>Keanne earned her Master of Social Work (MSW) degree and has since built a practice centered on the core belief that every person carries within them the seeds of their own healing. Her role as a therapist is not to fix, but to create the conditions in which growth naturally unfolds.</p>
+        <p>Her clinical background spans community mental health, private practice, and cross-cultural therapeutic work. She has a deep commitment to serving diverse populations, including immigrant communities, BIPOC clients, and first-generation Americans navigating the intersection of cultural identity and mental health.</p>
+
+        <div class="section-label" style="margin-top:2rem;">Therapy Philosophy</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;color:var(--text);margin-bottom:1rem;">Rooted in <em style="color:var(--lavender);">Connection</em> & Evidence</h3>
+        <p>Keanne's therapeutic approach is integrative — drawing on Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT, Motivational Interviewing, Attachment Theory, and mindfulness-based interventions. She tailors each approach to the individual, never applying a one-size-fits-all method.</p>
+        <div class="philosophy-cards">
+          <div class="philosophy-card">
+            <h4>Strength-Based</h4>
+            <p>Therapy that builds on your existing resources and resilience, not just your difficulties.</p>
+          </div>
+          <div class="philosophy-card">
+            <h4>Culturally Responsive</h4>
+            <p>Deep sensitivity to how culture, identity, and lived experience shape your mental health.</p>
+          </div>
+          <div class="philosophy-card">
+            <h4>Trauma-Informed</h4>
+            <p>Safety, trust, and choice are embedded into every aspect of the therapeutic relationship.</p>
+          </div>
+          <div class="philosophy-card">
+            <h4>Collaborative</h4>
+            <p>You set the agenda. Keanne walks alongside you, not in front or behind you.</p>
+          </div>
+        </div>
+
+        <div class="section-label" style="margin-top:2rem;">Qualifications & Certifications</div>
+        <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:2rem;">
+          <div style="display:flex;align-items:center;gap:.75rem;padding:1rem;background:var(--cream);border-radius:12px;border:1px solid var(--border);">
+            <span style="font-size:1.5rem;">🎓</span>
+            <div><strong style="font-size:.9rem;color:var(--text);">Master of Social Work (MSW)</strong><div style="font-size:.82rem;color:var(--text-muted);">Specialized in Clinical Social Work Practice</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:.75rem;padding:1rem;background:var(--cream);border-radius:12px;border:1px solid var(--border);">
+            <span style="font-size:1.5rem;">📜</span>
+            <div><strong style="font-size:.9rem;color:var(--text);">LCSW-QS — Florida Department of Health</strong><div style="font-size:.82rem;color:var(--text-muted);">Licensed Clinical Social Worker with Qualified Supervisor status</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:.75rem;padding:1rem;background:var(--cream);border-radius:12px;border:1px solid var(--border);">
+            <span style="font-size:1.5rem;">🌍</span>
+            <div><strong style="font-size:.9rem;color:var(--text);">Immigration Evaluation Specialist</strong><div style="font-size:.82rem;color:var(--text-muted);">VAWA, U-Visa, Hardship, Asylum evaluations — USCIS accepted</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:.75rem;padding:1rem;background:var(--cream);border-radius:12px;border:1px solid var(--border);">
+            <span style="font-size:1.5rem;">🧠</span>
+            <div><strong style="font-size:.9rem;color:var(--text);">Trauma-Focused CBT Certified</strong><div style="font-size:.82rem;color:var(--text-muted);">Advanced training in trauma-focused cognitive behavioral therapy</div></div>
+          </div>
+        </div>
+        <button class="btn-primary" onclick="showPage('booking')">📅 Schedule Your First Session</button>
+      </div>
+    </div>
+  </section>
+  <!-- Reuse footer snippet -->
+  <div style="background:var(--blue);padding:3rem 5%;text-align:center;">
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:white;margin-bottom:.75rem;">Begin Your Journey Today</h2>
+    <p style="color:rgba(255,255,255,.8);margin-bottom:1.5rem;">Scheduling a consultation is free and confidential. Take the first step.</p>
+    <button class="btn-primary" onclick="showPage('booking')" style="background:white;color:var(--blue);">Book a Session →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════ SERVICES PAGE ═══════════════════ -->
+<div class="page" id="page-services">
+  <div class="services-hero">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-label">Our Services</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Therapeutic Services <em style="font-style:italic;color:var(--blue);">Designed for You</em></h1>
+      <p style="color:var(--text-muted);max-width:600px;font-size:1.05rem;">Compassionate, evidence-based services offered via telehealth and in-person throughout Florida.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <!-- SERVICE 1 -->
+      <div class="service-full-card">
+        <div class="sfcard-content">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div style="width:56px;height:56px;background:var(--blue-pale);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">🧠</div>
+            <div>
+              <h3>Individual Therapy</h3>
+              <div style="font-size:.82rem;color:var(--text-muted);">Mental Health Counseling</div>
+            </div>
+          </div>
+          <p>Individual therapy provides a private, one-on-one space to explore your thoughts, feelings, and behaviors with a trained professional. Sessions are tailored entirely to your needs and goals — whether you're seeking relief from a specific challenge or looking for deeper self-understanding and personal growth.</p>
+          <p>Keanne draws from a range of evidence-based approaches including Cognitive Behavioral Therapy (CBT), mindfulness, and trauma-informed care to help you develop practical coping tools and long-lasting resilience.</p>
+          <div class="sfcard-details">
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Duration</div><div class="sfcard-detail-val">50 Minutes</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Format</div><div class="sfcard-detail-val">Telehealth / In-Person</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Frequency</div><div class="sfcard-detail-val">Weekly / Biweekly</div></div>
+          </div>
+          <div class="sfcard-who">
+            <strong>Who this helps:</strong>
+            <p>Adults experiencing anxiety, depression, trauma, grief, life transitions, relationship challenges, identity concerns, stress, and burnout.</p>
+          </div>
+        </div>
+        <div class="sfcard-price">
+          <div class="price-label">Starting from</div>
+          <div class="price-amount">$150</div>
+          <div class="price-per">per session</div>
+          <br>
+          <button class="btn-primary" onclick="showPage('booking')" style="white-space:nowrap;font-size:.85rem;">Book Now</button>
+        </div>
+      </div>
+
+      <!-- SERVICE 2 -->
+      <div class="service-full-card">
+        <div class="sfcard-content">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div style="width:56px;height:56px;background:var(--lavender-pale);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">🌱</div>
+            <div>
+              <h3>Mental Health Counseling</h3>
+              <div style="font-size:.82rem;color:var(--text-muted);">Specialized Support</div>
+            </div>
+          </div>
+          <p>Mental health counseling goes beyond coping strategies — it's a therapeutic journey toward healing and self-discovery. Whether you're processing childhood trauma, navigating a difficult relationship, managing chronic stress, or simply feeling stuck, counseling provides the tools and insight to move forward.</p>
+          <p>Keanne offers specialized support for trauma, PTSD, cultural and immigration-related stress, family dynamics, self-esteem, and personal development. All sessions are conducted in a culturally sensitive, non-judgmental environment.</p>
+          <div class="sfcard-details">
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Duration</div><div class="sfcard-detail-val">50–80 Minutes</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Format</div><div class="sfcard-detail-val">Telehealth / In-Person</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Languages</div><div class="sfcard-detail-val">English / Spanish</div></div>
+          </div>
+          <div class="sfcard-who">
+            <strong>Who this helps:</strong>
+            <p>Individuals dealing with PTSD, trauma history, cultural identity stress, family conflict, low self-worth, immigration-related anxiety, and more.</p>
+          </div>
+        </div>
+        <div class="sfcard-price">
+          <div class="price-label">Starting from</div>
+          <div class="price-amount">$150</div>
+          <div class="price-per">per session</div>
+          <br>
+          <button class="btn-primary" onclick="showPage('booking')" style="white-space:nowrap;font-size:.85rem;">Book Now</button>
+        </div>
+      </div>
+
+      <!-- SERVICE 3 -->
+      <div class="service-full-card">
+        <div class="sfcard-content">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div style="width:56px;height:56px;background:var(--green-pale);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">📚</div>
+            <div>
+              <h3>Supervision for RCSWI</h3>
+              <div style="font-size:.82rem;color:var(--text-muted);">Clinical Supervision</div>
+            </div>
+          </div>
+          <p>Keanne provides structured clinical supervision for Registered Clinical Social Work Interns (RCSWIs) in Florida pursuing licensure. As a Qualified Supervisor (QS), she offers both individual and group supervision formats tailored to support your clinical development, ethical grounding, and professional growth.</p>
+          <p>Supervision sessions cover case conceptualization, ethical dilemmas, clinical documentation, client engagement strategies, self-of-therapist work, and more. Keanne is committed to mentoring the next generation of compassionate, competent social work clinicians.</p>
+          <div class="sfcard-details">
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Format</div><div class="sfcard-detail-val">Individual or Group</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Duration</div><div class="sfcard-detail-val">60–90 Min</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Hours</div><div class="sfcard-detail-val">Florida-approved</div></div>
+          </div>
+          <div class="sfcard-who">
+            <strong>Who this helps:</strong>
+            <p>Registered Clinical Social Work Interns (RCSWIs) in Florida working toward their LCSW license who need qualified supervised clinical hours.</p>
+          </div>
+        </div>
+        <div class="sfcard-price">
+          <div class="price-label">Starting from</div>
+          <div class="price-amount">$100</div>
+          <div class="price-per">per session</div>
+          <br>
+          <button class="btn-primary" onclick="showPage('supervision')" style="white-space:nowrap;font-size:.85rem;">Apply Now</button>
+        </div>
+      </div>
+
+      <!-- SERVICE 4 -->
+      <div class="service-full-card">
+        <div class="sfcard-content">
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
+            <div style="width:56px;height:56px;background:#FEF7ED;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">📄</div>
+            <div>
+              <h3>Immigration Psychological Evaluations</h3>
+              <div style="font-size:.82rem;color:var(--text-muted);">USCIS-Accepted Evaluations</div>
+            </div>
+          </div>
+          <p>Immigration psychological evaluations are professional clinical assessments used to support immigration petitions. Keanne conducts comprehensive evaluations for a variety of immigration cases, providing detailed, evidence-supported reports that meet USCIS standards and are accepted by immigration attorneys.</p>
+          <p>These evaluations require sensitivity, thoroughness, and cultural competency. Keanne brings all three — ensuring that your story is heard and documented with the depth and dignity it deserves.</p>
+          <div class="sfcard-details">
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Process</div><div class="sfcard-detail-val">2–3 Sessions</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Report</div><div class="sfcard-detail-val">Comprehensive</div></div>
+            <div class="sfcard-detail"><div class="sfcard-detail-label">Timeline</div><div class="sfcard-detail-val">1–2 Weeks</div></div>
+          </div>
+          <div class="sfcard-who">
+            <strong>Types of evaluations offered:</strong>
+            <p>Extreme Hardship • VAWA (Violence Against Women Act) • U-Visa • T-Visa • Asylum • Cancellation of Removal • Adjustment of Status</p>
+          </div>
+        </div>
+        <div class="sfcard-price">
+          <div class="price-label">Starting from</div>
+          <div class="price-amount">$800</div>
+          <div class="price-per">per evaluation</div>
+          <br>
+          <button class="btn-primary" onclick="showPage('booking')" style="white-space:nowrap;font-size:.85rem;">Inquire Now</button>
+        </div>
+      </div>
+
+      <!-- Insurance -->
+      <div style="background:var(--blue-pale);border-radius:20px;padding:2.5rem;border:1px solid var(--blue-light);text-align:center;margin-top:1rem;">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;color:var(--text);margin-bottom:.75rem;">Insurance & Payment</h3>
+        <p style="color:var(--text-muted);max-width:540px;margin:0 auto 1.5rem;">We accept several insurance plans and offer sliding-scale fees for clients with financial need. Payment is accepted via Stripe, PayPal, Zelle, and major credit/debit cards.</p>
+        <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:.75rem;">
+          <span class="tag">Aetna</span><span class="tag">UnitedHealth</span><span class="tag">Cigna</span><span class="tag">Blue Cross</span><span class="tag">Sliding Scale Available</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════ BOOKING PAGE ═══════════════════ -->
+<div class="page" id="page-booking">
+  <section class="booking-section" style="min-height:100vh;">
+    <div class="section-inner">
+      <div style="text-align:center;margin-bottom:3rem;">
+        <div class="section-label">Online Booking</div>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.2rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Schedule Your Session</h1>
+        <p style="color:var(--text-muted);max-width:500px;margin:0 auto;">Select a service, choose a date, pick a time, and you're done. We'll confirm your appointment via email within 2 hours.</p>
+      </div>
+
+      <div class="booking-grid">
+        <div>
+          <div style="margin-bottom:1.25rem;">
+            <label style="font-size:.82rem;font-weight:600;color:var(--text);display:block;margin-bottom:.5rem;">Select Service</label>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;" id="serviceSelect">
+              <div class="service-sel-btn selected" data-svc="Individual Therapy" onclick="selectService(this,'Individual Therapy')">
+                <div style="font-size:1.25rem;margin-bottom:.3rem;">🧠</div>
+                <div style="font-size:.82rem;font-weight:600;color:var(--text);">Individual Therapy</div>
+                <div style="font-size:.72rem;color:var(--text-muted);">$150 / 50 min</div>
+              </div>
+              <div class="service-sel-btn" data-svc="Mental Health Counseling" onclick="selectService(this,'Mental Health Counseling')">
+                <div style="font-size:1.25rem;margin-bottom:.3rem;">🌱</div>
+                <div style="font-size:.82rem;font-weight:600;color:var(--text);">Mental Health Counseling</div>
+                <div style="font-size:.72rem;color:var(--text-muted);">$150 / 50 min</div>
+              </div>
+              <div class="service-sel-btn" data-svc="RCSWI Supervision" onclick="selectService(this,'RCSWI Supervision')">
+                <div style="font-size:1.25rem;margin-bottom:.3rem;">📚</div>
+                <div style="font-size:.82rem;font-weight:600;color:var(--text);">RCSWI Supervision</div>
+                <div style="font-size:.72rem;color:var(--text-muted);">$100 / 60 min</div>
+              </div>
+              <div class="service-sel-btn" data-svc="Immigration Evaluation" onclick="selectService(this,'Immigration Evaluation')">
+                <div style="font-size:1.25rem;margin-bottom:.3rem;">📄</div>
+                <div style="font-size:.82rem;font-weight:600;color:var(--text);">Immigration Evaluation</div>
+                <div style="font-size:.72rem;color:var(--text-muted);">$800 / eval</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="calendar-wrapper">
+            <div class="cal-header">
+              <button class="cal-nav" onclick="changeMonth(-1)">‹</button>
+              <div class="cal-month" id="calMonth"></div>
+              <button class="cal-nav" onclick="changeMonth(1)">›</button>
+            </div>
+            <div class="cal-days-header">
+              <span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+            </div>
+            <div class="cal-days" id="calDays"></div>
+          </div>
+
+          <div style="margin-top:1.25rem;">
+            <label style="font-size:.82rem;font-weight:600;color:var(--text);display:block;margin-bottom:.5rem;" id="timeSlotsLabel">Available Times</label>
+            <div class="time-slots" id="timeSlots"></div>
+          </div>
+        </div>
+
+        <div class="booking-form-side">
+          <h3>Your Information</h3>
+          <div class="booking-summary" id="bookingSummary">
+            <strong>Booking Summary</strong>
+            Select a date and time to continue.
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Jane" id="bkFirstName">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe" id="bkLastName">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@email.com" id="bkEmail">
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="(305) 555-0000" id="bkPhone">
+          </div>
+          <div class="form-group">
+            <label>New or Returning Client?</label>
+            <select id="bkClientType">
+              <option>New Client</option>
+              <option>Returning Client</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Reason for Visit (optional)</label>
+            <textarea rows="3" placeholder="Brief description of what you'd like to work on..." id="bkReason"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Session Format</label>
+            <select id="bkFormat">
+              <option>Telehealth (Video)</option>
+              <option>In-Person (Florida)</option>
+              <option>Phone Call</option>
+            </select>
+          </div>
+          <button class="btn-primary" onclick="submitBooking()" style="width:100%;justify-content:center;padding:1rem;">📅 Confirm Booking</button>
+          <div id="bookingSuccess" class="success-msg">
+            ✓ Your session has been requested! You'll receive a confirmation email within 2 hours. We look forward to seeing you.
+          </div>
+          <p style="font-size:.75rem;color:var(--text-light);text-align:center;">🔒 Secure & HIPAA compliant. Payment collected at time of service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════ SUPERVISION PAGE ═══════════════════ -->
+<div class="page" id="page-supervision">
+  <div class="supv-hero">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-label">For RCSWI Candidates</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Apply for <em style="font-style:italic;color:var(--lavender);">Clinical Supervision</em></h1>
+      <p style="color:var(--text-muted);max-width:600px;font-size:1.05rem;">Keanne Owens, LCSW-QS, is accepting applications from Registered Clinical Social Work Interns seeking qualified supervision hours toward their Florida LCSW license.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:3rem;align-items:start;">
+        <div>
+          <!-- Supervision info -->
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:20px;padding:2rem;margin-bottom:2rem;">
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;color:var(--text);margin-bottom:1rem;">What to Expect in Supervision</h3>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+              <div style="padding:.9rem;background:var(--cream);border-radius:10px;">
+                <div style="font-size:1.2rem;margin-bottom:.35rem;">🎯</div>
+                <h4 style="font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:.25rem;">Case Conceptualization</h4>
+                <p style="font-size:.8rem;color:var(--text-muted);">Develop clinical reasoning and case formulation skills.</p>
+              </div>
+              <div style="padding:.9rem;background:var(--cream);border-radius:10px;">
+                <div style="font-size:1.2rem;margin-bottom:.35rem;">⚖️</div>
+                <h4 style="font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:.25rem;">Ethics & Standards</h4>
+                <p style="font-size:.8rem;color:var(--text-muted);">Navigate ethical dilemmas with confidence and clarity.</p>
+              </div>
+              <div style="padding:.9rem;background:var(--cream);border-radius:10px;">
+                <div style="font-size:1.2rem;margin-bottom:.35rem;">💬</div>
+                <h4 style="font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:.25rem;">Clinical Skills</h4>
+                <p style="font-size:.8rem;color:var(--text-muted);">Refine interviewing, assessment, and intervention techniques.</p>
+              </div>
+              <div style="padding:.9rem;background:var(--cream);border-radius:10px;">
+                <div style="font-size:1.2rem;margin-bottom:.35rem;">🌱</div>
+                <h4 style="font-size:.88rem;font-weight:600;color:var(--text);margin-bottom:.25rem;">Self-of-Therapist</h4>
+                <p style="font-size:.8rem;color:var(--text-muted);">Explore how your identity shapes your clinical work.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- APPLICATION FORM -->
+          <div class="supv-form-wrapper" style="max-width:100%;">
+            <h2 style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:400;color:var(--text);margin-bottom:.5rem;">Supervision Application</h2>
+            <p style="color:var(--text-muted);margin-bottom:1.5rem;font-size:.9rem;">Complete the form below and Keanne will follow up within 3 business days to schedule an initial consultation.</p>
+
+            <div class="form-section-title">Personal Information</div>
+            <div class="form-grid" style="margin-bottom:1rem;">
+              <div class="form-group"><label>First Name *</label><input type="text" placeholder="First name"></div>
+              <div class="form-group"><label>Last Name *</label><input type="text" placeholder="Last name"></div>
+            </div>
+            <div class="form-grid" style="margin-bottom:1rem;">
+              <div class="form-group"><label>Email Address *</label><input type="email" placeholder="your@email.com"></div>
+              <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(305) 555-0000"></div>
+            </div>
+
+            <div class="form-section-title">License Information</div>
+            <div class="form-grid" style="margin-bottom:1rem;">
+              <div class="form-group"><label>RCSWI License Number *</label><input type="text" placeholder="SW12345"></div>
+              <div class="form-group"><label>License Expiration Date</label><input type="date"></div>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label>Current Employer / Practice Setting</label>
+              <input type="text" placeholder="Organization name">
+            </div>
+
+            <div class="form-section-title">Experience & Background</div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label>Current Population Served</label>
+              <input type="text" placeholder="e.g., Adults, children, immigrant families...">
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label>Clinical Experience Summary *</label>
+              <textarea rows="4" placeholder="Describe your clinical background, practice setting, client populations, and any modalities you've been trained in..."></textarea>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label>Supervision Goals</label>
+              <textarea rows="3" placeholder="What are you hoping to gain from supervision? What areas of growth are you focusing on?"></textarea>
+            </div>
+
+            <div class="form-section-title">Supervision Preferences</div>
+            <div class="form-grid" style="margin-bottom:1rem;">
+              <div class="form-group">
+                <label>Format Preference</label>
+                <select><option>Individual (1:1)</option><option>Group</option><option>Either</option></select>
+              </div>
+              <div class="form-group">
+                <label>Hours Needed (approx.)</label>
+                <input type="number" placeholder="e.g. 100">
+              </div>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label>Availability</label>
+              <div class="checkbox-group">
+                <label class="checkbox-item"><input type="checkbox"> Weekday mornings (9am–12pm)</label>
+                <label class="checkbox-item"><input type="checkbox"> Weekday afternoons (12pm–5pm)</label>
+                <label class="checkbox-item"><input type="checkbox"> Weekday evenings (5pm–7pm)</label>
+                <label class="checkbox-item"><input type="checkbox"> Saturday mornings</label>
+              </div>
+            </div>
+
+            <div class="form-section-title">Resume / CV Upload</div>
+            <div class="file-upload-area" onclick="document.getElementById('resumeUpload').click()">
+              <div style="font-size:2rem;margin-bottom:.5rem;">📎</div>
+              <p><strong>Click to upload</strong> or drag and drop your resume</p>
+              <p style="font-size:.78rem;margin-top:.35rem;">PDF, DOC, DOCX (max 10MB)</p>
+              <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx" style="display:none" onchange="showFileName(this)">
+              <div id="fileNameDisplay" style="margin-top:.5rem;color:var(--blue);font-size:.82rem;"></div>
+            </div>
+
+            <div class="form-group" style="margin-top:1.25rem;">
+              <label class="checkbox-item"><input type="checkbox" id="agreeTerms"> I agree to the supervision agreement terms and consent to background verification.</label>
+            </div>
+
+            <button class="btn-primary" onclick="submitSupervision()" style="width:100%;justify-content:center;padding:1rem;margin-top:1rem;">Submit Application →</button>
+            <div id="supervisionSuccess" class="success-msg">
+              ✓ Your application has been received! Keanne will contact you within 3 business days to schedule a consultation.
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div style="position:sticky;top:calc(var(--nav-h) + 1.5rem);">
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:20px;padding:1.75rem;margin-bottom:1.25rem;">
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--text);margin-bottom:1rem;">Supervision Details</h4>
+            <div style="display:flex;flex-direction:column;gap:.75rem;">
+              <div style="font-size:.85rem;color:var(--text-muted);"><strong style="color:var(--text);display:block;">Format</strong>Individual & Group available</div>
+              <div style="font-size:.85rem;color:var(--text-muted);"><strong style="color:var(--text);display:block;">Session Length</strong>60–90 minutes</div>
+              <div style="font-size:.85rem;color:var(--text-muted);"><strong style="color:var(--text);display:block;">Rate</strong>Starting at $100/session</div>
+              <div style="font-size:.85rem;color:var(--text-muted);"><strong style="color:var(--text);display:block;">Hours</strong>Florida Board approved</div>
+              <div style="font-size:.85rem;color:var(--text-muted);"><strong style="color:var(--text);display:block;">Delivery</strong>Telehealth & In-Person</div>
+            </div>
+          </div>
+          <div style="background:var(--lavender-pale);border:1px solid var(--lavender-light);border-radius:16px;padding:1.5rem;">
+            <h4 style="font-weight:600;color:var(--text);margin-bottom:.6rem;font-size:.95rem;">Questions?</h4>
+            <p style="font-size:.83rem;color:var(--text-muted);margin-bottom:1rem;">Reach out directly before applying — we're happy to answer your questions.</p>
+            <button class="btn-outline" onclick="showPage('contact')" style="width:100%;justify-content:center;font-size:.85rem;">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════ BLOG PAGE ═══════════════════ -->
+<div class="page" id="page-blog">
+  <section style="background:var(--green-pale);padding:5rem 5% 3rem;">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-label">Mental Health Resources</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Insights for Your <em style="font-style:italic;color:var(--green);">Wellness Journey</em></h1>
+      <p style="color:var(--text-muted);max-width:600px;font-size:1.05rem;">Evidence-based articles, practical tools, and compassionate guidance from Keanne Owens, LCSW-QS.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner">
+      <!-- Category filter -->
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2.5rem;">
+        <button class="admin-tab active" onclick="filterBlog(this,'all')">All Articles</button>
+        <button class="admin-tab" onclick="filterBlog(this,'anxiety')">Anxiety & Stress</button>
+        <button class="admin-tab" onclick="filterBlog(this,'trauma')">Trauma & Healing</button>
+        <button class="admin-tab" onclick="filterBlog(this,'therapy')">Therapy Basics</button>
+        <button class="admin-tab" onclick="filterBlog(this,'wellness')">Daily Wellness</button>
+        <button class="admin-tab" onclick="filterBlog(this,'immigration')">Immigration & Identity</button>
+      </div>
+
+      <div class="blog-grid" id="blogGrid">
+        <div class="blog-card" data-cat="anxiety">
+          <div class="blog-img">😰</div>
+          <div class="blog-body">
+            <div class="blog-cat">Anxiety & Stress</div>
+            <h3>5 Grounding Techniques to Calm Anxiety in Real Time</h3>
+            <p>When anxiety spikes, these practical, neuroscience-backed techniques can bring you back to the present moment and restore calm.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">5 min read</span></div>
+          </div>
+        </div>
+        <div class="blog-card" data-cat="trauma">
+          <div class="blog-img" style="background:linear-gradient(135deg,var(--lavender-light),var(--blue-light));">💜</div>
+          <div class="blog-body">
+            <div class="blog-cat">Trauma & Healing</div>
+            <h3>Understanding Trauma: Why Your Brain Remembers the Way It Does</h3>
+            <p>Trauma isn't weakness — it's your nervous system's intelligent response to overwhelming experiences. Understanding this changes everything.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">8 min read</span></div>
+          </div>
+        </div>
+        <div class="blog-card" data-cat="therapy">
+          <div class="blog-img" style="background:linear-gradient(135deg,var(--green-light),var(--blue-light));">🛋️</div>
+          <div class="blog-body">
+            <div class="blog-cat">Therapy Basics</div>
+            <h3>What Actually Happens in Your First Therapy Session?</h3>
+            <p>Demystifying the therapy process for first-timers — what to expect, what to bring, and how to get the most from your sessions.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">6 min read</span></div>
+          </div>
+        </div>
+        <div class="blog-card" data-cat="immigration">
+          <div class="blog-img" style="background:linear-gradient(135deg,#FDE9C9,#FECF8A);">🌍</div>
+          <div class="blog-body">
+            <div class="blog-cat">Immigration & Identity</div>
+            <h3>The Hidden Mental Health Toll of the Immigration Experience</h3>
+            <p>Navigating a new country is profoundly challenging. Understanding the psychological impact of immigration is the first step to healing.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">7 min read</span></div>
+          </div>
+        </div>
+        <div class="blog-card" data-cat="wellness">
+          <div class="blog-img" style="background:linear-gradient(135deg,var(--green-light),var(--lavender-light));">🌿</div>
+          <div class="blog-body">
+            <div class="blog-cat">Daily Wellness</div>
+            <h3>Building a Morning Routine That Actually Supports Your Mental Health</h3>
+            <p>A consistent morning practice doesn't have to be elaborate — small intentional habits can transform your entire day.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">4 min read</span></div>
+          </div>
+        </div>
+        <div class="blog-card" data-cat="anxiety">
+          <div class="blog-img" style="background:linear-gradient(135deg,var(--blue-light),#C8E6FF);">🧘</div>
+          <div class="blog-body">
+            <div class="blog-cat">Anxiety & Stress</div>
+            <h3>When Work Stress Becomes Something More: Recognizing Burnout</h3>
+            <p>Burnout is more than exhaustion — it's a signal that something needs to change. Learn the signs and what to do next.</p>
+            <div class="blog-meta"><span>Keanne Owens, LCSW-QS</span><span class="read-time">6 min read</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:3rem;padding:2.5rem;background:var(--cream);border-radius:20px;border:1px solid var(--border);">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;color:var(--text);margin-bottom:.6rem;">Want Articles in Your Inbox?</h3>
+        <p style="color:var(--text-muted);margin-bottom:1.5rem;font-size:.9rem;">Subscribe to our wellness newsletter for monthly insights from Keanne.</p>
+        <div style="display:flex;max-width:400px;margin:0 auto;gap:.5rem;">
+          <input type="email" placeholder="Your email" style="flex:1;padding:.75rem 1rem;border:1px solid var(--border);border-radius:30px;font-size:.9rem;background:var(--white);outline:none;color:var(--text);">
+          <button class="btn-primary" style="white-space:nowrap;">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════ CONTACT PAGE ═══════════════════ -->
+<div class="page" id="page-contact">
+  <section style="background:var(--cream);padding:5rem 5% 3rem;">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-label">Contact Us</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--text);margin-bottom:.75rem;">Reach Out — <em style="font-style:italic;color:var(--blue);">We're Here</em></h1>
+      <p style="color:var(--text-muted);max-width:600px;font-size:1.05rem;">We respond to all inquiries within one business day. All communications are completely confidential.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner">
+      <div class="emergency-banner" style="margin-bottom:2rem;">
+        <div class="emergency-icon">🆘</div>
+        <div class="emergency-text">
+          <strong>If this is a mental health emergency, please don't wait.</strong>
+          <span>Call 988 (Suicide & Crisis Lifeline) or 911 for immediate help.</span>
+        </div>
+        <a href="tel:988" class="emergency-link">Call 988</a>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <div class="contact-info-card">
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:500;color:var(--text);margin-bottom:1rem;">Contact Information</h3>
+            <div class="contact-item">
+              <div class="contact-icon" style="background:var(--blue-pale);">📧</div>
+              <div class="contact-item-text"><strong>Email</strong><span>contact@journeytoharmony.com</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background:var(--green-pale);">📞</div>
+              <div class="contact-item-text"><strong>Phone</strong><span>(305) 555-0174</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background:var(--lavender-pale);">📍</div>
+              <div class="contact-item-text"><strong>Location</strong><span>Florida, USA (Telehealth statewide)</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background:#FEF7ED;">🕐</div>
+              <div class="contact-item-text"><strong>Response Time</strong><span>Within 1 business day</span></div>
+            </div>
+          </div>
+          <div style="margin-top:1.25rem;background:var(--white);border-radius:20px;padding:1.75rem;border:1px solid var(--border);">
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:var(--text);margin-bottom:1rem;">Business Hours</h4>
+            <div class="hours-grid">
+              <span class="hours-day">Mon – Tue – Thu</span><span class="hours-time">9:00 AM – 6:00 PM</span>
+              <span class="hours-day">Wednesday</span><span class="hours-time">9:00 AM – 5:00 PM</span>
+              <span class="hours-day">Friday</span><span class="hours-time">9:00 AM – 4:00 PM</span>
+              <span class="hours-day">Saturday</span><span class="hours-time">By Appointment</span>
+              <span class="hours-day">Sunday</span><span class="hours-time">Closed</span>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <span style="font-size:2.5rem;">🗺️</span>
+            <span style="font-weight:600;color:var(--text);">Florida, USA</span>
+            <span>Telehealth sessions available statewide</span>
+            <span style="font-size:.78rem;">In-person location provided upon booking</span>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:500;color:var(--text);margin-bottom:1.5rem;">Send Us a Message</h3>
+          <div class="form-grid" style="margin-bottom:1rem;">
+            <div class="form-group"><label>First Name *</label><input type="text" placeholder="Jane"></div>
+            <div class="form-group"><label>Last Name *</label><input type="text" placeholder="Doe"></div>
+          </div>
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label>Email Address *</label>
+            <input type="email" placeholder="jane@email.com">
+          </div>
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label>Phone (optional)</label>
+            <input type="tel" placeholder="(305) 555-0000">
+          </div>
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label>Subject</label>
+            <select>
+              <option>General Inquiry</option>
+              <option>Book a Session</option>
+              <option>Immigration Evaluation</option>
+              <option>RCSWI Supervision</option>
+              <option>Insurance / Payment</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group" style="margin-bottom:1rem;">
+            <label>Your Message *</label>
+            <textarea rows="5" placeholder="How can we help you? Please share as much or as little as you're comfortable with..."></textarea>
+          </div>
+          <div class="form-group" style="margin-bottom:1.25rem;">
+            <label class="checkbox-item"><input type="checkbox" checked> I agree that this message is not to be used for crisis situations and I understand response times may be up to 1 business day.</label>
+          </div>
+          <button class="btn-primary" onclick="submitContact()" style="width:100%;justify-content:center;padding:1rem;">Send Message →</button>
+          <div id="contactSuccess" class="success-msg">
+            ✓ Message received! We'll be in touch within one business day.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ADMIN MODAL -->
+<div class="modal-overlay" id="adminModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:500;color:var(--text);">Admin Dashboard</h3>
+      <button class="modal-close" onclick="closeAdmin()">×</button>
+    </div>
+    <!-- Login form (initially shown) -->
+    <div id="adminLoginForm">
+      <div class="form-group" style="margin-bottom:1rem;"><label>Email</label><input type="email" placeholder="admin@journeytoharmony.com" id="adminEmail"></div>
+      <div class="form-group" style="margin-bottom:1.5rem;"><label>Password</label><input type="password" placeholder="••••••••" id="adminPass"></div>
+      <button class="btn-primary" onclick="adminLogin()" style="width:100%;justify-content:center;">Sign In</button>
+    </div>
+    <!-- Dashboard (shown after login) -->
+    <div id="adminDashboard" style="display:none;">
+      <div class="admin-tabs">
+        <button class="admin-tab active" onclick="adminTab(this,'bookings')">Bookings</button>
+        <button class="admin-tab" onclick="adminTab(this,'supervision')">Applications</button>
+        <button class="admin-tab" onclick="adminTab(this,'messages')">Messages</button>
+        <button class="admin-tab" onclick="adminTab(this,'analytics')">Analytics</button>
+      </div>
+      <div id="admin-bookings">
+        <div class="admin-row"><span><strong>Sarah M.</strong> — Individual Therapy<br><small style="color:var(--text-muted);">Mar 18, 2025 @ 10:00 AM</small></span><div><span class="admin-status pending">Pending</span></div></div>
+        <div class="admin-row"><span><strong>Jorge R.</strong> — Immigration Evaluation<br><small style="color:var(--text-muted);">Mar 19, 2025 @ 2:00 PM</small></span><div><span class="admin-status confirmed">Confirmed</span></div></div>
+        <div class="admin-row"><span><strong>Tanya N.</strong> — RCSWI Supervision<br><small style="color:var(--text-muted);">Mar 21, 2025 @ 11:00 AM</small></span><div><span class="admin-status confirmed">Confirmed</span></div></div>
+        <div class="admin-row"><span><strong>Marcus W.</strong> — Mental Health Counseling<br><small style="color:var(--text-muted);">Mar 22, 2025 @ 3:00 PM</small></span><div><span class="admin-status pending">Pending</span></div></div>
+      </div>
+      <div id="admin-supervision" style="display:none;">
+        <div class="admin-row"><span><strong>Alicia F.</strong> — RCSWI #SW98231<br><small style="color:var(--text-muted);">Applied: Mar 10, 2025</small></span><div><span class="admin-status pending">Review</span></div></div>
+        <div class="admin-row"><span><strong>DeShawn T.</strong> — RCSWI #SW88421<br><small style="color:var(--text-muted);">Applied: Mar 12, 2025</small></span><div><span class="admin-status confirmed">Accepted</span></div></div>
+      </div>
+      <div id="admin-messages" style="display:none;">
+        <div class="admin-row"><span><strong>New inquiry</strong> from Maria G.<br><small style="color:var(--text-muted);">"I'm interested in immigration evaluation services..."</small></span><div style="font-size:.78rem;color:var(--text-muted);">2h ago</div></div>
+        <div class="admin-row"><span><strong>Booking request</strong> from Paul K.<br><small style="color:var(--text-muted);">"Looking to schedule my first therapy session..."</small></span><div style="font-size:.78rem;color:var(--text-muted);">Yesterday</div></div>
+      </div>
+      <div id="admin-analytics" style="display:none;">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;">
+          <div style="background:var(--blue-pale);border-radius:10px;padding:1rem;text-align:center;"><div style="font-size:1.75rem;font-weight:600;color:var(--blue);">142</div><div style="font-size:.78rem;color:var(--text-muted);">Visitors This Month</div></div>
+          <div style="background:var(--green-pale);border-radius:10px;padding:1rem;text-align:center;"><div style="font-size:1.75rem;font-weight:600;color:var(--green);">18</div><div style="font-size:.78rem;color:var(--text-muted);">Bookings This Month</div></div>
+          <div style="background:var(--lavender-pale);border-radius:10px;padding:1rem;text-align:center;"><div style="font-size:1.75rem;font-weight:600;color:var(--lavender);">94%</div><div style="font-size:.78rem;color:var(--text-muted);">Booking Conversion</div></div>
+          <div style="background:var(--cream);border-radius:10px;padding:1rem;text-align:center;"><div style="font-size:1.75rem;font-weight:600;color:var(--text);">3</div><div style="font-size:.78rem;color:var(--text-muted);">New Applications</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.service-sel-btn{background:var(--white);border:2px solid var(--border);border-radius:12px;padding:1rem;cursor:pointer;transition:all .2s;text-align:center;}
+.service-sel-btn:hover{border-color:var(--blue);background:var(--blue-pale);}
+.service-sel-btn.selected{border-color:var(--blue);background:var(--blue-pale);}
+</style>
+
+<script>
+// ── ROUTING ──
+let currentPage = 'home';
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+  const pg = document.getElementById('page-'+id);
+  if(pg) pg.classList.add('active');
+  const nl = document.getElementById('nav-'+id);
+  if(nl) nl.classList.add('active');
+  currentPage = id;
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(id==='booking') initCalendar();
+}
+
+// ── THEME ──
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme')==='dark';
+  document.documentElement.setAttribute('data-theme', isDark?'':'dark');
+  document.querySelector('.theme-btn').textContent = isDark?'🌙':'☀️';
+}
+
+// ── MOBILE MENU ──
+function toggleMenu() {
+  document.getElementById('mobileNav').classList.toggle('open');
+}
+
+// ── CALENDAR ──
+let calDate = new Date();
+let selectedDate = null, selectedTime = null, selectedService = 'Individual Therapy';
+const availableDays = [1,2,3,4,5]; // weekdays only
+
+function initCalendar() {
+  renderCalendar(calDate.getFullYear(), calDate.getMonth());
+  renderTimeSlots();
+}
+function changeMonth(dir) {
+  calDate.setMonth(calDate.getMonth()+dir);
+  renderCalendar(calDate.getFullYear(), calDate.getMonth());
+  selectedDate = null; renderTimeSlots();
+}
+function renderCalendar(year, month) {
+  const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('calMonth').textContent = months[month]+' '+year;
+  const first = new Date(year,month,1).getDay();
+  const days = new Date(year,month+1,0).getDate();
+  const today = new Date();
+  let html='';
+  for(let i=0;i<first;i++) html+=`<div class="cal-day empty"></div>`;
+  for(let d=1;d<=days;d++){
+    const dt=new Date(year,month,d);
+    const isPast=dt<new Date(today.getFullYear(),today.getMonth(),today.getDate());
+    const isToday=d===today.getDate()&&month===today.getMonth()&&year===today.getFullYear();
+    const isWeekday=availableDays.includes(dt.getDay());
+    const isSelected=selectedDate&&selectedDate.getDate()===d&&selectedDate.getMonth()===month;
+    let cls='cal-day';
+    if(isPast) cls+=' past';
+    else if(isToday) cls+=' today';
+    else if(isWeekday) cls+=' available';
+    if(isSelected&&!isPast) cls+=' selected';
+    if(!isPast&&isWeekday) html+=`<div class="${cls}" onclick="selectDate(${d},${month},${year})">${d}</div>`;
+    else html+=`<div class="${cls}">${d}</div>`;
+  }
+  document.getElementById('calDays').innerHTML=html;
+}
+function selectDate(d,m,y){
+  selectedDate=new Date(y,m,d);
+  selectedTime=null;
+  renderCalendar(y,m);
+  renderTimeSlots();
+  updateSummary();
+}
+const allSlots=['9:00 AM','10:00 AM','11:00 AM','1:00 PM','2:00 PM','3:00 PM','4:00 PM','5:00 PM'];
+const unavailIdx=[2,5];
+function renderTimeSlots(){
+  if(!selectedDate){
+    document.getElementById('timeSlots').innerHTML='<p style="font-size:.82rem;color:var(--text-muted);grid-column:span 3;">Please select a date first.</p>';
+    return;
+  }
+  let html='';
+  allSlots.forEach((t,i)=>{
+    const ua=unavailIdx.includes(i);
+    const sel=selectedTime===t;
+    html+=`<div class="time-slot${ua?' unavail':''}${sel?' selected':''}" onclick="${ua?'':'selectTime(\''+t+'\')'}">${t}</div>`;
+  });
+  document.getElementById('timeSlots').innerHTML=html;
+}
+function selectTime(t){
+  selectedTime=t;
+  renderTimeSlots();
+  updateSummary();
+}
+function selectService(el,svc){
+  document.querySelectorAll('.service-sel-btn').forEach(b=>b.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedService=svc;
+  updateSummary();
+}
+function updateSummary(){
+  const el=document.getElementById('bookingSummary');
+  if(selectedDate&&selectedTime){
+    const opts={weekday:'long',year:'numeric',month:'long',day:'numeric'};
+    el.innerHTML=`<strong>Booking Summary</strong>${selectedService}<br>${selectedDate.toLocaleDateString('en-US',opts)} at ${selectedTime}`;
+  }
+}
+function submitBooking(){
+  const fn=document.getElementById('bkFirstName').value.trim();
+  const em=document.getElementById('bkEmail').value.trim();
+  if(!fn||!em){alert('Please fill in your name and email.');return;}
+  if(!selectedDate||!selectedTime){alert('Please select a date and time.');return;}
+  document.getElementById('bookingSuccess').classList.add('show');
+  document.getElementById('bookingSuccess').style.display='block';
+}
+
+// ── SUPERVISION FORM ──
+function showFileName(inp){
+  if(inp.files.length) document.getElementById('fileNameDisplay').textContent='📎 '+inp.files[0].name;
+}
+function submitSupervision(){
+  const agree=document.getElementById('agreeTerms').checked;
+  if(!agree){alert('Please agree to the supervision terms to continue.');return;}
+  document.getElementById('supervisionSuccess').style.display='block';
+  document.getElementById('supervisionSuccess').classList.add('show');
+}
+
+// ── CONTACT ──
+function submitContact(){
+  document.getElementById('contactSuccess').style.display='block';
+  document.getElementById('contactSuccess').classList.add('show');
+}
+
+// ── NEWSLETTER ──
+function subscribeNewsletter(){
+  const em=document.getElementById('nlEmail').value.trim();
+  if(!em){return;}
+  const s=document.getElementById('nlSuccess');
+  s.style.display='block';
+}
+
+// ── BLOG FILTER ──
+function filterBlog(btn,cat){
+  document.querySelectorAll('.admin-tab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.blog-card').forEach(c=>{
+    c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none';
+  });
+}
+
+// ── ADMIN ──
+function openAdmin(){document.getElementById('adminModal').classList.add('open');}
+function closeAdmin(){document.getElementById('adminModal').classList.remove('open');}
+function adminLogin(){
+  const e=document.getElementById('adminEmail').value;
+  const p=document.getElementById('adminPass').value;
+  if(e&&p){
+    document.getElementById('adminLoginForm').style.display='none';
+    document.getElementById('adminDashboard').style.display='block';
+  }
+}
+function adminTab(btn,tab){
+  document.querySelectorAll('.admin-tab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  ['bookings','supervision','messages','analytics'].forEach(t=>{
+    const el=document.getElementById('admin-'+t);
+    if(el) el.style.display=t===tab?'':'none';
+  });
+}
+
+// INIT
+initCalendar();
+</script>
+</body>
+</html>
