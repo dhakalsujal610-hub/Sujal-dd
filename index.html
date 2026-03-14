@@ -400,22 +400,8 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:3.5rem 5% 2rem;
 <!-- ═══════════════════ HOME PAGE ═══════════════════ -->
 <div class="page active" id="page-home">
 
-  <!-- EMERGENCY BANNER -->
-  <div style="padding:1.5rem 5% 0;max-width:1200px;margin:0 auto;padding-top:calc(var(--nav-h) + 1.5rem);">
-    <div style="max-width:1200px;margin:0 auto;">
-      <div class="emergency-banner">
-        <div class="emergency-icon">🆘</div>
-        <div class="emergency-text">
-          <strong>Mental Health Emergency? Get help now.</strong>
-          <span>If you are in crisis, please reach out immediately — help is available 24/7.</span>
-        </div>
-        <a href="tel:988" class="emergency-link">Call 988</a>
-      </div>
-    </div>
-  </div>
-
   <!-- HERO -->
-  <section class="hero" style="padding-top:0;min-height:90vh;">
+  <section class="hero" style="padding-top:0;min-height:100vh;">
     <div class="hero-bg">
       <div class="hero-blob-1"></div>
       <div class="hero-blob-2"></div>
@@ -631,7 +617,7 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:3.5rem 5% 2rem;
         <h2 class="section-title">We're Here When <em>You're Ready</em></h2>
         <p style="color:var(--text-muted);margin-bottom:2rem;">Reaching out for support is an act of courage. We'll respond within 24 hours on business days and keep all communications completely confidential.</p>
         <div style="display:flex;flex-direction:column;gap:1rem;">
-          <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📧</span><span style="color:var(--text-muted);">contact@journeytoharmony.com</span></div>
+          <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📧</span><span style="color:var(--text-muted);"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="13707c7d6772706753797c66617d766a677c7b72617e7c7d6a3d707c7e">[email&#160;protected]</a></span></div>
           <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📞</span><span style="color:var(--text-muted);">(305) 555-0174</span></div>
           <div style="display:flex;align-items:center;gap:.75rem;"><span style="font-size:1.2rem;">📍</span><span style="color:var(--text-muted);">Florida, USA</span></div>
         </div>
@@ -1305,7 +1291,7 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:3.5rem 5% 2rem;
             <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:500;color:var(--text);margin-bottom:1rem;">Contact Information</h3>
             <div class="contact-item">
               <div class="contact-icon" style="background:var(--blue-pale);">📧</div>
-              <div class="contact-item-text"><strong>Email</strong><span>contact@journeytoharmony.com</span></div>
+              <div class="contact-item-text"><strong>Email</strong><span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="14777b7a60757760547e7b61667a716d607b7c7566797b7a6d3a777b79">[email&#160;protected]</a></span></div>
             </div>
             <div class="contact-item">
               <div class="contact-icon" style="background:var(--green-pale);">📞</div>
@@ -1433,7 +1419,7 @@ footer{background:var(--text);color:rgba(255,255,255,.7);padding:3.5rem 5% 2rem;
 .service-sel-btn.selected{border-color:var(--blue);background:var(--blue-pale);}
 </style>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── ROUTING ──
 let currentPage = 'home';
 function showPage(id) {
@@ -1590,6 +1576,8 @@ function adminLogin(){
   if(e&&p){
     document.getElementById('adminLoginForm').style.display='none';
     document.getElementById('adminDashboard').style.display='block';
+  } else {
+    alert('Please enter your email and password.');
   }
 }
 function adminTab(btn,tab){
@@ -1601,7 +1589,7 @@ function adminTab(btn,tab){
   });
 }
 
-// INIT
+// ── INIT ──
 initCalendar();
 </script>
 </body>
